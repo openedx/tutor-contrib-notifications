@@ -1,0 +1,23 @@
+# This file records information about this repo. Its use is described in OEP-55:
+# https://open-edx-proposals.readthedocs.io/en/latest/processes/oep-0055-proc-project-maintainers.html
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "tutor-contrib-notifications"
+  description: "A Tutor plugin to manage configuration and plugin slots for the Notifications tray feature."
+  links:
+    - url: "https://github.com/openedx/tutor-contrib-notifications/blob/master/README.rst"
+      title: "README"
+      icon: "Article"
+  annotations:
+    # (Optional) Annotation keys and values can be whatever you want.
+    # We use it in Open edX repos to have a comma-separated list of GitHub user
+    # names that might be interested in changes to the architecture of this
+    # component.
+    openedx.org/arch-interest-groups: ""
+spec:
+  # (Required) This can be a group(`group:<group_name>` or a user(`user:<github_username>`)
+  owner: group:committers-tutor-contrib-notifications
+  type: "library"
+  lifecycle: "experimental"
