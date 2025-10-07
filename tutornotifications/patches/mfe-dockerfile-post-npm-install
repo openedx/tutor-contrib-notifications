@@ -1,0 +1,1 @@
+RUN --mount=type=cache,target=/root/.npm,sharing=shared echo "installing notifications plugin" && npm install @edx/frontend-plugin-notifications@^2.0.3 && echo "done"
