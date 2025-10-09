@@ -119,7 +119,7 @@ PLUGIN_SLOTS.add_items(
     [
         (
             "all",
-            "org.openedx.frontend.layout.header_desktop_secondary_menu.v1",
+            "org.openedx.frontend.layout.notification_tray.v1",
             notification_drawer_config,
         ),
     ]
