@@ -3,7 +3,7 @@ Notifications plugin for `Tutor <https://docs.tutor.edly.io>`__
 
 A Tutor plugin to manage plugin slot and configuration for tray and email notifications feature. Learn
 more about it in
-`Notifications & Preferences <https://docs.openedx.org/en/latest/learners/sfd_notifications/index.html>`_ 
+`Notifications & Preferences <https://docs.openedx.org/en/latest/learners/sfd_notifications/index.html>`_
 
 
 Installation
@@ -20,6 +20,9 @@ Usage
 
     tutor plugins enable notifications
 
+.. code-block:: bash
+
+    tutor [dev|local|k8s] do init --limit notifications
 
 Configuration
 *************
